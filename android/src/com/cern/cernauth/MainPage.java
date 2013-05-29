@@ -122,6 +122,8 @@ public class MainPage extends Activity {
         	   Class.forName("android.webkit.WebView").getMethod("onPause", (Class[]) null).invoke(webView, (Object[]) null);
         	   setContentView(R.layout.main_page);
         	   //DO NEW REQUEST FOR GROUPS, START ACTIVITY
+        	   output = (TextView) findViewById(R.id.outputTextView);    	  		
+    		   output.setText("Retrieving groups...");
         	   new RetrieveGroupsTask().execute();
         	   
            } catch (Exception e) { e.printStackTrace(); }
