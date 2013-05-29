@@ -1,4 +1,4 @@
-#CERN authentication via mobile platform
+##CERN authentication via mobile platform
 
 Code to authenticate to CERNs login.cern.ch on mobile platforms. 
 The main way of doing that is opening a webview with the login page,
