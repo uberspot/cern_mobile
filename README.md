@@ -84,7 +84,7 @@ With something like this inside an asynctask:
              urlConnection.disconnect();
      }
 
-Note: Make sure you have added the <uses-permission android:name="android.permission.INTERNET"/> in your AndroidManifest.xml to be able to access the internet.
+Note: Make sure you have added the android.permission.INTERNET in your AndroidManifest.xml to be able to access the internet.
 
 ###iOS implementation
 
@@ -133,3 +133,5 @@ and you create a function to be called when a notification is received
         }
      }
 
+
+Finally assuming you created a .xib UI file with a webview in it you have to of course connect the UI elements delegate to the IBActions in WebViewController as you would connect a simple button to its function in the code. 
