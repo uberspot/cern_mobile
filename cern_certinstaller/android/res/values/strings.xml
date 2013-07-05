@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CernCertInstaller</string>
+    <string name="action_settings">Settings</string>
+    <string name="install_cern_ca_cert">Install CERN CA certificates</string>
+	<string name="install">Install</string>
+	
+</resources>
